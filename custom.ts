@@ -7,6 +7,6 @@ namespace ブロックをおく {
 
     //% block="craft with %n"
     export function craftWith(n: number): void {
-        player.execute(`scoreboard players set .output${n} global 1`);
+        player.execute(`tag @a add number_${n}`);
     }
 }
