@@ -1,4 +1,4 @@
-#テストしよう！
+# テストしよう！
 
 ```template
     hai.trainingStart(function () {
