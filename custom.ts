@@ -20,7 +20,11 @@ namespace イベントトリガー {
     //% block="ブロックをえらぶ %n"
     //% n.shadow="ghostBlock"
     //% n.fieldEditor="gridpicker"
-    export function chooseBlock(n: number) {
+    //% n.fieldOptions.width=220
+    //% n.fieldOptions.maxRows=10
+    //% n.fieldOptions.columns=8
+    //% n.fieldOptions.hasSearchBar=true
+    export function chooseBlock(n: Block) {
         if(n === 0) {
             player.execute(`say §c正解！`);
         } else {
