@@ -5,7 +5,7 @@
 //% weight=100 color=#ff4500 icon=""
 namespace イベントトリガー {
 
-    //% block="イベントをトリガーする %イベント名"
+    //% block="イベントをトリガーする %type, %event"
     export function triggerEntityEvent(t: string, e: string): void {
         player.execute(`event entity @e[type=${t}] ${e}`);
     }
